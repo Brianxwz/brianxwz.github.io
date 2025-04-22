@@ -1,0 +1,61 @@
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    min-height: 40vh;
+    width: 50%;
+}
+
+.links {
+    display: flex;
+    margin-top: 2rem;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-button {
+    display: flex;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+}
+
+.resume-button {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.resume-button svg {
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.resume-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+
+.link-button:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.intro-text {
+    padding-right: 2rem;
+}
+
+.intro-photo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 5%;
+    object-fit: cover;
+    object-position: bottom;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

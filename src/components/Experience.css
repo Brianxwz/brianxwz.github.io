@@ -1,0 +1,101 @@
+.experience-section {
+    width: 50%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255, 0.2);
+  }
+  
+  .tab {
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+    width: 100%;
+    color: white;
+  }
+  
+  .tab.active {
+    background-color: #111c1f;
+    color: white;
+  }
+  
+  .timeline {
+    position: relative;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    padding: 0 2rem;
+    border-radius: 5px;
+  }
+  
+  .timeline-item {
+    display: flex;
+    margin-top: 2rem;
+  }
+  
+  .timeline-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .timeline-content .company {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  
+  .timeline-content .title {
+    font-size: 0.95rem;
+    color: #888;
+    margin: 0;
+  }
+  
+  .timeline-content .date {
+    font-size: 0.85rem;
+    color: #888;
+    margin: 0;
+  }
+
+  .timeline-content .description {
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+    line-height: 1.4;
+  }
+
+  .timeline-button {
+    margin-right: 2rem;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+
+  .timeline::before {
+    position: absolute;
+    left: 52px;
+    top: 0;
+    bottom: 0;
+    content: '';
+    width: 0.5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+  }
+  
